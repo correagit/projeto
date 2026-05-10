@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+:root {
+  /*Surface Colors*/
+  --background-color: #573824;
+  --surface-color: #f0e8c2;
+
+  /*Text-Colors*/
+  --text-color-primary: #291b1a;
+  --text-color-secondary: #573a37;
+  --text-color-on-bg: #f0e8c2;
+
+  /*Typography*/
+
+  /*Name     Size Line Height Weight font-gamily*/
+  --heading1: 40px 140% Regular "Alice";
+  --heading2: 24px 150% Regular "ALice";
+  --Paragraph: 16px 150% Regular "Alice";
+}

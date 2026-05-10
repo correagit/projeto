@@ -1,0 +1,15 @@
+@import url("../config/config.css");
+
+#main-principal {
+  background-color: var(--surface-color);
+  width: 80rem;
+  max-width: 80rem;
+  margin: 4.8rem auto 0;
+  padding: 2.4rem;
+  border-radius: 2.4rem;
+}
+#main-principal_div-image > img {
+  width: 75.2rem;
+  height: 40rem;
+  border-radius: 1.6rem;
+}

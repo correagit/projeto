@@ -1,0 +1,6 @@
+@import url("../config/config.css");
+
+body {
+  background: var(--background-color) url("../images/bg-image.png") center / cover;
+}
+
