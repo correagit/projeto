@@ -21,3 +21,9 @@
   color: var(--text-color-secondary);
   margin-top: 1rem;
 }
+a {
+  font: var(--paragraph);
+  display: inline-block;
+  padding: 1rem;
+  margin-top: 1rem;
+}

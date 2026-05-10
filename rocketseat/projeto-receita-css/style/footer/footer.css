@@ -1,0 +1,16 @@
+@import url("../config/config.css");
+
+#footer-main {
+  margin-top: 2.8rem;
+  margin-bottom: 4.8rem;
+}
+
+.footer-main_div > p {
+  text-align: center;
+  font: var(--paragraph);
+  color: var(--text-color-on-bg);
+}
+
+.image-footer {
+  vertical-align: middle;
+}
