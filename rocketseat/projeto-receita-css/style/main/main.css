@@ -8,7 +8,7 @@
   padding: 2.4rem;
   border-radius: 2.4rem;
 }
-#main-principal_div-image{
+#main-principal_div-image {
   margin-bottom: 2.4rem;
 }
 
@@ -18,5 +18,15 @@
   height: 40rem;
   max-height: 40rem;
   border-radius: 1.6rem;
+  
 }
 
+#titulo-principal{
+  font: var(--heading1);
+  color: var(--text-color-primary);
+}
+.titulo-principal_paragrafo{
+  margin-top: 1.2rem;
+  font: var(--Paragraph);
+  color: var(--text-color-secondary);
+}

@@ -23,9 +23,7 @@ html {
   --text-color-on-bg: #f0e8c2;
 
   /*Typography*/
-
-  /*Name     Size Line Height Weight font-gamily*/
-  --heading1: 40px 140% Regular "Alice";
-  --heading2: 24px 150% Regular "ALice";
-  --Paragraph: 16px 150% Regular "Alice";
+  --heading1: normal 4rem / 140% "Alice";
+  --heading2: normal 2.4rem / 150% "ALice";
+  --Paragraph: normal 1.6rem / 150% "Alice";
 }

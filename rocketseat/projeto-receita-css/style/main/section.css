@@ -1,0 +1,5 @@
+@import url("../config/config.css");
+
+#section_ingredientes, #section-preparo{
+  margin-top: 2.4rem;
+}
