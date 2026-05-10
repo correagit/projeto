@@ -8,8 +8,15 @@
   padding: 2.4rem;
   border-radius: 2.4rem;
 }
+#main-principal_div-image{
+  margin-bottom: 2.4rem;
+}
+
 #main-principal_div-image > img {
   width: 75.2rem;
+  max-width: 75.2rem;
   height: 40rem;
+  max-height: 40rem;
   border-radius: 1.6rem;
 }
+
