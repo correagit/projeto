@@ -21,12 +21,3 @@
   
 }
 
-#titulo-principal{
-  font: var(--heading1);
-  color: var(--text-color-primary);
-}
-.titulo-principal_paragrafo{
-  margin-top: 1.2rem;
-  font: var(--Paragraph);
-  color: var(--text-color-secondary);
-}

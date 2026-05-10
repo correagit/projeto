@@ -3,3 +3,12 @@
 #article_principal {
   padding: 0px 2.4rem 2.4rem 2.4rem;
 }
+#titulo-principal {
+  font: var(--heading1);
+  color: var(--text-color-primary);
+}
+.titulo-principal_paragrafo {
+  margin-top: 1.2rem;
+  font: var(--paragraph);
+  color: var(--text-color-secondary);
+}

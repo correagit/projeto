@@ -1,5 +1,23 @@
 @import url("../config/config.css");
 
-#section_ingredientes, #section-preparo{
+:is(#section_ingredientes, #section-preparo) {
   margin-top: 2.4rem;
+}
+:is(.section_ingredientes_titulo, .section-preparo_titulo) {
+  font: var(--heading2);
+  color: var(--text-color-primary);
+  margin-bottom: 0.4rem;
+}
+
+.section_ingredientes_lista_item {
+  font: var(--paragraph);
+  list-style-position: inside;
+  color: var(--text-color-secondary);
+  margin-left: 0.8rem;
+}
+#section-preparo > p {
+  font: var(--paragraph);
+  list-style-position: inside;
+  color: var(--text-color-secondary);
+  margin-top: 1rem;
 }
