@@ -1,0 +1,30 @@
+@import url("../config.css");
+
+#main-footer {
+  width: 128rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 2.4rem 3.2rem;
+}
+
+#main-footer > p {
+  font: var(--paragraph-sm);
+  color: var(--text-color-secondary);
+}
+
+.main-footer_div-links_list {
+  display: flex;
+  gap: 1.6rem;
+  list-style-type: none;
+}
+.main-footer_div-links_list_item > a {
+  font: var(--paragraph-sm);
+  color: var(--text-color-secondary);
+  text-decoration-color: transparent;
+  padding: 0.4rem;
+}
+.main-footer_div-links_list_item > a:hover {
+  color: var(--brand-color);
+  text-decoration-color: var(--brand-color);
+}
