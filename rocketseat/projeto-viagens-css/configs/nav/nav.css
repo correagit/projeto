@@ -1,0 +1,36 @@
+
+@import url("../config.css");
+#nav-main {
+  margin: 0 auto;
+  width: 128rem;
+  max-width: 128rem;
+  height: 8rem;
+  max-height: 8rem;
+  padding: 2rem 3.2rem;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list-nav {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
+.list-nav_item > a {
+  font: var(--Paragraph-md);
+  color: var(--text-color-secondary);
+  text-transform: capitalize;
+  gap: 1.6rem;
+  padding: 0.4rem;
+}
+.list-nav_item > a:hover {
+  color: var(--brand-color);
+}
+
+.list-nav > li:last-of-type > a > img {
+  width: 4rem;
+  height: 4rem;
+  object-fit: cover;
+}
