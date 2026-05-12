@@ -1,0 +1,19 @@
+@import url("../config.css");
+
+#main-Gallery {
+  width: 128rem;
+  max-width: 128rem;
+  margin: 0 auto;
+  background-color: var(--background-color);
+}
+.section-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2.4rem;
+  padding: 2.4rem 3.2rem;
+}
+
+.section-gallery > img {
+  max-width: 28.6rem;
+  max-height: 28.6rem;
+}
