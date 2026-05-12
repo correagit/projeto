@@ -1,0 +1,45 @@
+@import url("../config.css");
+
+.about_section {
+  width: 128rem;
+  margin: 0 auto;
+  max-width: 128rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3.2rem;
+}
+.div-about {
+  display: flex;
+  gap: 3.2rem;
+}
+.box-about {
+  width: 38.4rem;
+}
+.main-title {
+  font: var(--heading1);
+  color: var(--text-color-primary);
+}
+.about-paragraph {
+  font: var(--paragraph-sm);
+  color: var(--text-color-secondary);
+  margin-top: 0.8rem;
+}
+.list-info {
+  width: 28rem;
+  max-width: 28rem;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+.list-info_item {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+.list-info_item > p {
+  font: var(--paragraph-sm);
+  text-transform: capitalize;
+  color: var(--text-color-secondary);
+}

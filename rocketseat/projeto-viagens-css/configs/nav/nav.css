@@ -24,9 +24,11 @@
   text-transform: capitalize;
   gap: 1.6rem;
   padding: 0.4rem;
+  text-decoration-color: transparent;
 }
 .list-nav_item > a:hover {
   color: var(--brand-color);
+  text-decoration-color:  var(--brand-color);
 }
 
 .list-nav > li:last-of-type > a > img {
