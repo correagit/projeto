@@ -27,7 +27,7 @@ html {
   --text-color-secondary: #6c6c6c;
 
   /*Typograph*/
-  --heading1: Bold 32px / 125% "Poppins";
-  --Paragraph-md: Regular 14px / 170% "Poppins";
-  --paragraph-sm: Regular 12px / 170% "Poppins";
+  --heading1: Bold 3.2rem / 125% "Poppins";
+  --Paragraph-md: Regular 1.6rem / 170% "Poppins";
+  --paragraph-sm: Regular 1.2rem / 170% "Poppins";
 }
