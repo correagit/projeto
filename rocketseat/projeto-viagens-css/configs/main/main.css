@@ -2,7 +2,6 @@
 
 #main-Gallery {
   width: 128rem;
-  max-width: 128rem;
   margin: 0 auto;
   background-color: var(--background-color);
 }
@@ -18,7 +17,7 @@
   max-width: 28.6rem;
   max-height: 28.6rem;
   opacity: 0.8;
-  object-fit: contain;
+  object-fit: cover;
 
   transform: scale(1);
   transition: transform 0.3s ease, opacity 0.3s ease;

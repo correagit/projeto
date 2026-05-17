@@ -1,0 +1,39 @@
+*,
+*::after,
+::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+
+:root {
+  /*Produto*/
+  --brand-color-light: #60a5fa;
+  --brand-color-dark: #1d4ed8;
+
+  /*Base*/
+  --bg-color: #0f172a;
+  --stroke-color: #253857;
+
+  /*text*/
+  --text-color-primary: #f1f5f9;
+  --text-color-secondary: #cbd5e1;
+
+  /*Tipograph*/
+  ---heading1: 800 24px /135% "Archivo", sans-serif;
+
+  ---heading2: 800 16px / 140% "Archivo", sans-serif;
+
+  ---heading3: 800 14px / 140% "Archivo", sans-serif;
+
+  ---Span: 600 14px / 145% "Archivo", sans-serif;
+
+  ---Paragraph: 400 14px / 160% "Archivo", sans-serif;
+}
+
+#page {
+  background-color: var(--bg-color);
+}
