@@ -2,7 +2,6 @@
   background-color: var(--stroke-color);
   max-width: 128rem;
   margin: 0 auto;
-  padding: 2rem 3.2rem;
 }
 
 .main-nav {
@@ -14,19 +13,20 @@
   grid-auto-flow: column;
   justify-content: space-between;
   list-style-type: none;
+  padding: 2.6rem 3.2rem;
 }
 
 .fisrt-bar_item > a {
   display: grid;
   grid-auto-flow: column;
   column-gap: 0.8rem;
+  align-items: center;
 }
 
 .fisrt-bar_item:nth-of-type(1) > a > span {
   font: var(---heading2);
   color: var(--text-color-primary);
   text-transform: capitalize;
-
 }
 .fisrt-bar_item:nth-of-type(1) > a {
   text-decoration-color: transparent;
@@ -48,4 +48,25 @@
 }
 .fisrt-bar_item:nth-of-type(3) > a {
   text-decoration-color: transparent;
+}
+
+/******Barra secundária*************/
+
+.second-bar {
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: space-between;
+  list-style-type: none;
+  padding: 2.6rem 3.2rem;
+}
+.second-bar > li > a {
+  font: var(---span);
+  color: var(--text-color-secondary);
+  text-decoration-color: transparent;
+  text-transform: capitalize;
+}
+
+.second-bar > li > a:hover {
+  color: var(--brand-color-light);
+  text-decoration-color: var(--brand-color-light);
 }
