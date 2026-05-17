@@ -1,0 +1,40 @@
+#main-main {
+  max-width: 121.6rem;
+  margin: 4rem auto 0rem;
+  background-color: red;
+}
+
+.content_list-fisrt {
+  list-style-type: none;
+}
+
+.content_list_item-robotica > a {
+  display: grid;
+  text-decoration-color: transparent;
+  align-items: end;
+  max-width: 60.8rem;
+  height: 41.6rem;
+  background: url("../images/fundos/Image\ 01.png") center / cover no-repeat
+    scroll;
+}
+
+.content_list_item-robotica > a:hover {
+  text-decoration-color: var(--brand-color-dark);
+}
+.content_list_item-robotica > a > div {
+  max-width: 50.6rem;
+  margin: 0rem 2.4rem;
+  background-image: linear-gradient(to top, black, transparent);
+}
+.content_list_item-robotica > a > div > span {
+  font: var(---paragraph);
+  color: var(--text-color-primary);
+  background-color: var(--brand-color-dark);
+  padding: 0.4rem 0.8rem;
+  border-radius: 0.4rem;
+}
+
+.content_list_item-robotica > a > div > p {
+  font: var(---heading1);
+  color: var(--text-color-primary);
+}
