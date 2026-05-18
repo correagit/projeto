@@ -114,7 +114,8 @@
 
 /************SECTION SECONDARY******************/
 #mais-lidas {
-  background-color: red;
+  display: grid;
+  row-gap: 2.4rem;
 }
 .mais-lidas_fisrt-bar {
   display: grid;
@@ -128,16 +129,70 @@
   align-items: center;
   gap: 0.4rem;
   padding: 0.2rem 0rem;
-  text-decoration-color:transparent ;
+  text-decoration-color: transparent;
 }
 
-.mais-lidas_fisrt-bar > a:hover{
+.mais-lidas_fisrt-bar > a:hover {
   text-decoration-color: var(--brand-color-dark);
 }
 
-
-.mais-lidas_fisrt-bar > p,
-span {
+.mais-lidas_fisrt-bar > p {
   font: var(---span);
   color: var(--text-color-secondary);
+}
+
+.mais-lidas_fisrt-bar > a > span {
+  font: var(---span);
+  color: var(--text-color-secondary);
+}
+
+.lista {
+  display: grid;
+  grid-auto-flow: column;
+  list-style-type: none;
+  column-gap: 1.6rem;
+}
+
+.lista > li > a {
+  display: grid;
+  row-gap: 0.8rem;
+  text-decoration-color: transparent;
+}
+.lista > li > a:hover {
+  text-decoration-color: white;
+}
+
+.lista > li > a > div {
+  background-color: lime;
+  height: 19.2rem;
+  padding: 0.8rem;
+}
+
+.lista > li > a > div > span {
+  font: var(---span);
+  color: var(--text-color-primary);
+  background-color: var(--brand-color-dark);
+  padding: 0.4rem 0.8rem;
+  border-radius: 0.4rem;
+}
+
+.lista > li > a > p {
+  font: var(---heading2);
+  color: var(--text-color-primary);
+  max-height: 6.6rem;
+
+  overflow: hidden;
+}
+
+.lista_item-veiculos > a > div {
+  background: url("../images/fundos/Image\ 06.png") center / cover no-repeat;
+}
+.lista_item-hologramas > a > div {
+  background: url("../images/fundos/Image\ 07.png") center / cover no-repeat;
+}
+.lista_item-realidade-virtual > a > div {
+  background: url("../images/fundos/Image\ 08.png") center / cover no-repeat;
+}
+.lista_item-internet > a > div {
+  background: url("../images/fundos/Image\ 09.png") center / cover no-repeat;
 }
