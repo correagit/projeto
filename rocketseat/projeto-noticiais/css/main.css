@@ -1,6 +1,8 @@
 #main-main {
   max-width: 121.6rem;
   margin: 4rem auto 0rem;
+  display: grid;
+  row-gap: 8rem;
 }
 
 .content {
@@ -106,6 +108,36 @@
 .content_list_item-vestiveis > a {
   background: url("../images/fundos/Image\ 04.png") center / cover;
 }
-.content_list_item-realidadevirtual > a{
+.content_list_item-realidadevirtual > a {
   background: url("../images/fundos/Image\ 05.png") center / cover;
+}
+
+/************SECTION SECONDARY******************/
+#mais-lidas {
+  background-color: red;
+}
+.mais-lidas_fisrt-bar {
+  display: grid;
+  grid-auto-flow: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.mais-lidas_fisrt-bar > a {
+  display: grid;
+  grid-auto-flow: column;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.2rem 0rem;
+  text-decoration-color:transparent ;
+}
+
+.mais-lidas_fisrt-bar > a:hover{
+  text-decoration-color: var(--brand-color-dark);
+}
+
+
+.mais-lidas_fisrt-bar > p,
+span {
+  font: var(---span);
+  color: var(--text-color-secondary);
 }
