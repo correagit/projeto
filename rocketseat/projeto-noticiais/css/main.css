@@ -1,7 +1,12 @@
 #main-main {
   max-width: 121.6rem;
   margin: 4rem auto 0rem;
-  background-color: red;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 1.6rem;
 }
 
 .content_list-fisrt {
@@ -17,6 +22,9 @@
   background: url("../images/fundos/Image\ 01.png") center / cover no-repeat
     scroll;
 }
+.content_list_item-robotica:hover > a {
+  text-decoration-color: white;
+}
 
 .content_list_item-robotica > a > div {
   max-width: 100%;
@@ -25,7 +33,7 @@
 }
 
 .content_list_item-robotica > a > div > span {
-  font: var(---paragraph);
+  font: var(---span);
   color: var(--text-color-primary);
   background-color: var(--brand-color-dark);
   padding: 0.4rem 0.8rem;
@@ -35,4 +43,69 @@
 .content_list_item-robotica > a > div > p {
   font: var(---heading1);
   color: var(--text-color-primary);
+}
+
+/****************************/
+
+.content_list-secondary {
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.6rem;
+}
+
+.content_list-secondary > li > a {
+  text-decoration-color: transparent;
+}
+.content_list-secondary > .content_list_item-hologramas:hover > a {
+  text-decoration-color: white;
+}
+.content_list-secondary > .content_list_item-internet:hover > a {
+  text-decoration-color: white;
+}
+.content_list-secondary > .content_list_item-vestiveis:hover > a {
+  text-decoration-color: white;
+}
+.content_list-secondary > .content_list_item-realidadevirtual:hover > a {
+  text-decoration-color: white;
+}
+
+.content_list-secondary > li > a {
+  display: grid;
+  height: 100%;
+  align-items: end;
+}
+
+.content_list-secondary > li > a > div > span {
+  font: var(---span);
+  color: var(--text-color-primary);
+  background-color: var(--brand-color-dark);
+  padding: 0.4rem 0.8rem;
+  border-radius: 0.4rem;
+}
+
+.content_list-secondary > li > a > div > p {
+  font: var(---heading3);
+  color: var(--text-color-primary);
+  margin-top: 0.8rem;
+}
+
+.content_list-secondary > li > a > div {
+  background-image: linear-gradient(to top, black 1%, transparent 40%);
+  padding: 1.2rem;
+}
+/*********/
+.content_list_item-hologramas > a {
+  background: url("../images/fundos/Image\ 02.png") center / cover;
+}
+
+.content_list_item-internet > a {
+  background: url("../images/fundos/Image\ 03.png") center / cover;
+}
+
+.content_list_item-vestiveis > a {
+  background: url("../images/fundos/Image\ 04.png") center / cover;
+}
+.content_list_item-realidadevirtual > a{
+  background: url("../images/fundos/Image\ 05.png") center / cover;
 }
