@@ -18,14 +18,12 @@
     scroll;
 }
 
-.content_list_item-robotica > a:hover {
-  text-decoration-color: var(--brand-color-dark);
-}
 .content_list_item-robotica > a > div {
-  max-width: 50.6rem;
-  margin: 0rem 2.4rem;
-  background-image: linear-gradient(to top, black, transparent);
+  max-width: 100%;
+  padding: 0.8rem 2.4rem 2.4rem 2.4rem;
+  background-image: linear-gradient(to top, black 1%, transparent 40%);
 }
+
 .content_list_item-robotica > a > div > span {
   font: var(---paragraph);
   color: var(--text-color-primary);
