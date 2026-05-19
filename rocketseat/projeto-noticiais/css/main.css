@@ -203,7 +203,10 @@
   grid-template-columns: minmax(70rem, 70rem) 1fr;
   column-gap: 3.2rem;
 }
-
+.lista-destaque-ia {
+  display: grid;
+  
+}
 .lista-destaque-ia > li {
   display: grid;
   row-gap: 3.2rem;
@@ -283,8 +286,66 @@
 .main-aside {
   max-width: 48.8rem;
   display: grid;
-  background-color: lime;
 }
-.main-aside > a > img{
+.main-aside > a > img {
   max-width: 100%;
+}
+
+.main-aside_list {
+  list-style-type: none;
+}
+.main-aside_list > li > a > img {
+  max-height: 7.2rem;
+}
+
+.main-aside_list {
+  display: grid;
+  gap: 3.2rem;
+}
+.main-aside_list > li ~ li > a {
+  display: grid;
+  grid-auto-flow: column;
+  column-gap: 1.5rem;
+  max-height: 7.2rem;
+  overflow: hidden;
+  text-decoration-color: transparent;
+}
+.main-aside_list > li ~ li > a:hover {
+  text-decoration-color: white;
+}
+
+.main-aside_list > li ~ li > a > div > span {
+  font: var(---span);
+  color: var(--text-color-primary);
+  background-color: var(--brand-color-dark);
+  padding: 0.4rem 0.8rem;
+  border-radius: 0.4rem;
+}
+.main-aside_list > li ~ li > a > div > p {
+  margin-top: 0.8rem;
+  font: var(---heading3);
+  color: var(--text-color-primary);
+}
+
+.main-aside_list_item {
+  display: grid;
+  grid-auto-flow: column;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 1.2rem;
+}
+
+.main-aside_list_item > a {
+  display: grid;
+  grid-auto-flow: column;
+  align-items: center;
+  column-gap: 0.4rem;
+}
+.main-aside_list_item > a > span {
+  font: var(---span);
+  color: var(--text-color-secondary);
+}
+.main-aside_list_item > p {
+  font: var(---span);
+  color: var(--text-color-secondary);
 }
