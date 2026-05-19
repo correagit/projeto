@@ -37,3 +37,9 @@ html {
 #page {
   background-color: var(--bg-color);
 }
+
+footer > a p{
+  font: var(---heading1);
+  color: var(--text-color-primary);
+
+}
