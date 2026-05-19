@@ -163,7 +163,6 @@
 }
 
 .lista > li > a > div {
-  background-color: lime;
   height: 19.2rem;
   padding: 0.8rem;
 }
@@ -195,4 +194,92 @@
 }
 .lista_item-internet > a > div {
   background: url("../images/fundos/Image\ 09.png") center / cover no-repeat;
+}
+
+/**************last-section**********************/
+
+.last-section {
+  display: grid;
+  grid-template-columns: minmax(70rem, 70rem) 1fr;
+  column-gap: 3.2rem;
+}
+
+.lista-destaque-ia > li {
+  display: grid;
+  row-gap: 3.2rem;
+}
+.lista-destaque-ia > li > a {
+  max-height: 13.6rem;
+  overflow: hidden;
+}
+
+.lista-destaque-ia_item-title {
+  display: grid;
+  grid-auto-flow: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.lista-destaque-ia_item-title > p {
+  font: var(---span);
+  color: var(--text-color-secondary);
+}
+.lista-destaque-ia_item-title > a {
+  display: grid;
+  grid-auto-flow: column;
+  align-items: center;
+  column-gap: 0.4rem;
+  text-decoration-color: transparent;
+}
+.lista-destaque-ia_item-title > a:hover {
+  text-decoration-color: white;
+}
+
+.lista-destaque-ia_item-title > a > span {
+  font: var(---span);
+  color: var(--text-color-secondary);
+}
+
+/**Itens*/
+.lista-destaque-ia_item {
+  margin-top: 2.4rem;
+}
+
+.lista-destaque-ia_item > a {
+  display: grid;
+  grid-auto-flow: column;
+  column-gap: 1.6rem;
+  text-decoration-color: transparent;
+}
+.lista-destaque-ia_item > a:hover {
+  text-decoration-color: white;
+}
+
+.lista-destaque-ia_item > a > div > span {
+  font: var(---span);
+  color: var(--text-color-primary);
+  background-color: var(--brand-color-dark);
+  padding: 0.4rem 0.8rem;
+  border-radius: 0.4rem;
+}
+
+.lista-destaque-ia_item > a > div > p:first-of-type {
+  font: var(---heading3);
+  color: var(--text-color-primary);
+  margin-top: 0.8rem;
+}
+
+.lista-destaque-ia_item > a > div > p:last-of-type {
+  font: var(---span);
+  color: var(--text-color-secondary);
+  margin-top: 0.8rem;
+}
+
+.lista-destaque-ia_item > a > img {
+  max-width: 17.6rem;
+}
+
+/**Aside**/
+.main-aside > a > img {
+  max-width: 48.8rem;
 }
