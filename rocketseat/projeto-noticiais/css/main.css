@@ -270,7 +270,7 @@
 }
 
 .lista-destaque-ia_item > a > div > p:last-of-type {
-  font: var(---span);
+  font: var(---paragraph);
   color: var(--text-color-secondary);
   margin-top: 0.8rem;
 }
@@ -280,6 +280,11 @@
 }
 
 /**Aside**/
-.main-aside > a > img {
+.main-aside {
   max-width: 48.8rem;
+  display: grid;
+  background-color: lime;
+}
+.main-aside > a > img{
+  max-width: 100%;
 }
